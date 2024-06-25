@@ -60,7 +60,7 @@ const SideBar = () => {
               </a>
             </li>
             {Links.map((item, i) => (
-              <li>
+              <li key={i}>
                 <Link
                   href={item.href}
                   key={i}
