@@ -432,7 +432,7 @@ const RecentQuizPage = () => {
         <p className='text-[#4A4A4A] text-center text-[15px] my-3'>{index+1} of {QuizData.length} questions</p>
         </div>}
 
-        {result? <div className='px-4'>
+        {result? <div className='px-4 mx-auto w-[90%] md:w-full'>
             <h2 className='text-xl font-medium'>You Scored {score} out of {QuizData.length} questions</h2>
             <button onClick={reset} className='border-[1px] my-4 py-2 px-4 rounded-lg bg-[#1935CA] text-[#fff]'>Reset</button>
        </div>: <></>}
